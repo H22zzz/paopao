@@ -1,0 +1,23 @@
+<!--miniApp/pages/goodsDetail/goodsDetail.wxml-->
+<view class="goodsDetail">
+  <!-- 头部 -->
+  <view class="detail-top">
+    <text>{{name}}</text>
+    <text>{{frontName}}</text>
+  </view>
+
+
+  <!-- 中部 -->
+  <view class="detail-center">
+    <view class="center-wrap" wx:for="{{listData}}" wx:key="id">
+      <!-- <navigator url="../buyDetail/buyDetail?id={{item.id}}" class="wrap-item"> -->
+        <view  class="wrap-item" bindtap="detailAction" data-id="{{item.id}}" data-name="{{item.name}}" data-url="{{item.primaryPicUrl}}">
+          <image src="{{item.primaryPicUrl}}"></image>
+          <text>{{item.name}}</text>
+        </view>
+      <!-- </navigator> -->
+    </view>
+
+  </view>
+
+</view>

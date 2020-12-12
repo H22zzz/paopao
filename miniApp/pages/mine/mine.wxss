@@ -1,0 +1,134 @@
+/* miniApp/pages/mine/mine.wxss */
+.mine {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  background: #eee;
+  color: #111;
+}
+
+.user-info {
+  width: 100%;
+  height: 400rpx;
+  background: #55A034;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.user-info-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20rpx 30rpx 0;
+}
+.login-btn{
+  margin-top: 135rpx;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  margin-right: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.username {
+  margin-top: 10rpx;
+}
+
+.check {
+  width: 230rpx;
+  height: 60rpx;
+  border-radius: 208rpx;
+  text-align: center;
+  background: #fff;
+  line-height: 60rpx;
+}
+
+.user-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 110rpx 80rpx 0;
+}
+
+.content {
+  text-align: center;
+}
+
+
+
+.order,
+.common-tools {
+  margin: 20rpx auto;
+  width: 96%;
+  background: #fff;
+  border-radius: 15rpx;
+}
+
+.order-head,
+.tool-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 20rpx;
+  /* background: #f00; */
+}
+
+.my-order,
+.tool {
+  font-size: 35rpx;
+}
+
+.all-order {
+  font-size: 28rpx;
+}
+
+.order-content,
+.tool-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40rpx 25rpx 70rpx;
+}
+
+.order-item,
+.tool-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconfont {
+  font-size: 45rpx;
+  margin-bottom: 10rpx;
+}
+
+.item-text {
+  font-size: 30rpx;
+}
+
+.tool-content {
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.tool-content:after {
+  content: "";
+  width: 32.5%;
+}
+
+.tool-item {
+  width: 32.5%;
+  margin-bottom: 70rpx;
+}

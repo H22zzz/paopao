@@ -1,0 +1,46 @@
+<!--miniApp/pages/home/home.wxml-->
+<view class="home">
+  <view class="container">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}"
+      duration="{{duration}}" circular="{{circular}}">
+      <swiper-item class="swiper-item" wx:for="{{image}}" wx:key="*this">
+        <image src="{{item}}" mode="scaleToFill"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 中部 -->
+  <view class="center">
+    <view class="center-wrap">
+      <view class="center-item" wx:for="{{cData}}" wx:key="id">
+        <navigator url="../goodsDetail/goodsDetail?id={{item.id}}" class="item-wrap">
+          <image src="{{item.picUrl}}" class="img"></image>
+          <text class="txt">{{item.text}}</text>
+        </navigator>
+      </view>
+    </view>
+
+
+
+  </view>
+  <!-- 底部 -->
+  <view class="bottom">
+    <view class="bottom-top">
+      <text>新品首发</text>
+    </view>
+    <view class="bottom-center">
+      <view class="center-wrap">
+
+        <view class="list" wx:for="{{bData}}" wx:key="id">
+          <navigator class="list" url="../buyDetail/buyDetail?id={{item.id}}&url={{item.primaryPicUrl}}&name={{item.name}}">
+            <image src="{{item.primaryPicUrl}}"></image>
+            <text>{{item.name}}</text>
+          </navigator>
+
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+
+</view>

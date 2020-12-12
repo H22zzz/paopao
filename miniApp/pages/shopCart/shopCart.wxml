@@ -1,0 +1,7 @@
+<!--miniApp/pages/shopCart/shopCart.wxml-->
+<view class="shopcart">
+  <view wx:for="{{arr}}" wx:key="id">
+  <view>{{item.title}}</view>
+  <image src="{{item.imgurl}}"></image>
+  </view>
+</view>

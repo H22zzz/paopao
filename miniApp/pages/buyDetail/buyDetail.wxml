@@ -1,0 +1,21 @@
+<!--miniApp/pages/buyDetail/buyDetail.wxml-->
+<view class="buy-detail">
+  <view class="buy-view">
+    <view class="buy-top">
+      <image src="{{arr.url}}"></image>
+      <text>{{arr.name}}</text>
+      <text>价格:{{price}}元</text>
+    </view>
+
+    <view class="buy-number">
+      <text bindtap="reduceAction" class="reduce">-</text>
+      <input placeholder=""  value="{{num}}"/>
+      <text bindtap="addAction" class="add">+</text>
+    </view>
+  </view>
+  <view class="bottom-nav">
+    <text></text>
+    <text bindtap="buyAction" >立即购买</text>
+    <text  bindtap="cartAction">加入购物车</text>
+  </view>
+</view>

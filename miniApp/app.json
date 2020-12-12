@@ -1,0 +1,45 @@
+{
+  "entryPagePath": "pages/mine/mine",
+  "pages": [
+    "pages/home/home",
+    "pages/shopCart/shopCart",
+    "pages/mine/mine",
+    "pages/goodsDetail/goodsDetail",
+    "pages/buyDetail/buyDetail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#55A034",
+    "navigationBarTitleText": "泡泡商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#55A034",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home1.png"
+      },
+     
+      {
+        "pagePath": "pages/shopCart/shopCart",
+        "text": "购物车",
+        "iconPath": "image/shop-cart.png",
+        "selectedIconPath": "image/shop-cart1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "image/mine.png",
+        "selectedIconPath": "image/mine1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

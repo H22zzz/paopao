@@ -1,0 +1,86 @@
+{
+  "id": "2218808",
+  "name": "fruitApp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "qunyuan",
+  "glyphs": [
+    {
+      "icon_id": "4783676",
+      "name": "待收货",
+      "font_class": "shoucangtubiao-",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "801773",
+      "name": "退款",
+      "font_class": "tuikuan",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1337884",
+      "name": "待发货",
+      "font_class": "daifahuo",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "3888927",
+      "name": "已完成",
+      "font_class": "yiwancheng",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "4137341",
+      "name": "常见反馈",
+      "font_class": "changjianfankui",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "6696966",
+      "name": "地址管理",
+      "font_class": "dizhiguanli",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9446592",
+      "name": "待评价",
+      "font_class": "pingjia",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "10598545",
+      "name": "待支付",
+      "font_class": "daizhifu",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "11748118",
+      "name": "扫一扫",
+      "font_class": "richscan_icon",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "12129223",
+      "name": "在线客服",
+      "font_class": "zaixiankefu",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "14982832",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+/* miniApp/pages/goodsDetail/goodsDetail.wxss */
+/* 顶部 */
+.detail-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detail-top text:nth-child(1){
+  font-size: 14px;
+
+}
+.detail-top text:nth-child(2){
+  font-size: 12px;
+}
+
+
+/* 中部 */
+.detail-center{
+  display: flex;
+  justify-self: space-around;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.center-wrap{
+  width: 48%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrap-item{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  margin:10rpx 0 10rpx 20rpx;
+}
+.wrap-item image{
+  width: 345rpx;
+  height: 345rpx;
+}
+.wrap-item text{
+  font-size: 12px;
+  margin-top: 4rpx;
+  color: #333;
+}

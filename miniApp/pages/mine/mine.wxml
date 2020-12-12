@@ -1,0 +1,92 @@
+<!--miniApp/pages/mine/mine.wxml-->
+<view class="mine" style="flex-direction:column;">
+  <view class="user-info">
+    <button wx:if="{{isShow}}" class="login-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfoAction">登录</button>
+
+    <view wx:else="{{isShow}}">
+      <view class="user-info-detail">
+        <view class="info">
+          <image class="avatar" src="{{url}}" />
+          <view class="username">{{name}}</view>
+        </view>
+        <view class="check">签到领积分</view>
+      </view>
+      <view class="user-content">
+        <view class="content">
+          <text>4</text>
+          <view>优惠券</view>
+        </view>
+        <view class="content">
+          <text>4</text>
+          <view>积分</view>
+        </view>
+        <view class="content">
+          <text>4</text>
+          <view>消息</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="order">
+    <view class="order-head">
+      <text class="my-order">我的订单</text>
+      <text class="all-order">查看全部订单</text>
+    </view>
+    <view class="order-content">
+      <view class="order-item">
+        <text class="iconfont .icondaizhifu"></text>
+        <text class="item-text">待支付</text>
+      </view>
+      <view class="order-item">
+        <text class="iconfont .icondaifahuo"></text>
+        <text class="item-text">待发货</text>
+      </view>
+      <view class="order-item">
+        <text class="iconfont .iconshoucangtubiao-"></text>
+        <text class="item-text">待收货</text>
+      </view>
+      <view class="order-item">
+        <text class="iconfont .iconpingjia"></text>
+        <text class="item-text">待评价</text>
+      </view>
+      <view class="order-item">
+        <text class="iconfont .iconyiwancheng"></text>
+        <text class="item-text">已完成</text>
+      </view>
+      <view class="order-item">
+        <text class="iconfont .icontuikuan"></text>
+        <text class="item-text">退款</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="common-tools">
+    <view class="tool-head">
+      <text class="tool">常用工具</text>
+    </view>
+    <view class="tool-content">
+      <view class="tool-item">
+        <text class="iconfont .icondizhiguanli"></text>
+        <text class="item-text">地址管理</text>
+      </view>
+      <view class="tool-item">
+        <text class="iconfont .iconzaixiankefu"></text>
+        <text class="item-text">在线客服</text>
+      </view>
+      <view class="tool-item">
+        <text class="iconfont .iconchangjianfankui"></text>
+        <text class="item-text">意见反馈</text>
+      </view>
+      <view class="tool-item">
+        <text class="iconfont .iconshezhi"></text>
+        <text class="item-text">设置</text>
+      </view>
+      <view class="tool-item">
+        <text class="iconfont .iconrichscan_icon"></text>
+        <text class="item-text">扫一扫</text>
+      </view>
+    </view>
+  </view>
+</view>
